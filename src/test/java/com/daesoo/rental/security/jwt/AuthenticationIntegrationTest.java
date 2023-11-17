@@ -1,9 +1,9 @@
 package com.daesoo.rental.security.jwt;
 
-import com.daesoo.rental.config.SecurityConfiguration;
-import com.daesoo.rental.config.SecurityJwtConfiguration;
-import com.daesoo.rental.config.WebConfigurer;
-import com.daesoo.rental.management.SecurityMetersService;
+import com.daesoo.common.config.SecurityConfiguration;
+import com.daesoo.common.config.SecurityJwtConfiguration;
+import com.daesoo.common.config.WebConfigurer;
+import com.daesoo.common.management.SecurityMetersService;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

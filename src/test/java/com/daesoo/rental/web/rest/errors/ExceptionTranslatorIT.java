@@ -7,6 +7,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import com.daesoo.rental.IntegrationTest;
+import com.daesoo.rental.adaptor.in.web.errors.ErrorConstants;
+import com.daesoo.rental.adaptor.in.web.errors.ExceptionTranslator;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;

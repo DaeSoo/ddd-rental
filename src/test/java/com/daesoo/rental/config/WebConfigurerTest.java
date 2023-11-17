@@ -8,6 +8,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.header;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+import com.daesoo.common.config.WebConfigurer;
 import jakarta.servlet.*;
 import java.util.*;
 import org.junit.jupiter.api.BeforeEach;
