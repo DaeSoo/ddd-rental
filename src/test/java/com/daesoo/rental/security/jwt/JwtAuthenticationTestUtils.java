@@ -1,7 +1,7 @@
 package com.daesoo.rental.security.jwt;
 
-import static com.daesoo.rental.security.SecurityUtils.AUTHORITIES_KEY;
-import static com.daesoo.rental.security.SecurityUtils.JWT_ALGORITHM;
+import static com.daesoo.common.security.SecurityUtils.AUTHORITIES_KEY;
+import static com.daesoo.common.security.SecurityUtils.JWT_ALGORITHM;
 
 import com.nimbusds.jose.jwk.source.ImmutableSecret;
 import com.nimbusds.jose.util.Base64;

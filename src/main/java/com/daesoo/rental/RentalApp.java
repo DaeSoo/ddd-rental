@@ -1,7 +1,7 @@
 package com.daesoo.rental;
 
-import com.daesoo.rental.config.ApplicationProperties;
-import com.daesoo.rental.config.CRLFLogConverter;
+import com.daesoo.common.config.ApplicationProperties;
+import com.daesoo.common.config.CRLFLogConverter;
 import jakarta.annotation.PostConstruct;
 import java.net.InetAddress;
 import java.net.UnknownHostException;

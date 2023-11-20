@@ -2,6 +2,7 @@ package com.daesoo.rental.management;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.daesoo.common.management.SecurityMetersService;
 import io.micrometer.core.instrument.Counter;
 import io.micrometer.core.instrument.MeterRegistry;
 import io.micrometer.core.instrument.simple.SimpleMeterRegistry;

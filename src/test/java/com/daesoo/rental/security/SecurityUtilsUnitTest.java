@@ -2,6 +2,8 @@ package com.daesoo.rental.security;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.daesoo.common.security.AuthoritiesConstants;
+import com.daesoo.common.security.SecurityUtils;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Optional;
