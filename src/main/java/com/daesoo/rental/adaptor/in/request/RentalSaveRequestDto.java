@@ -1,26 +1,22 @@
-package com.daesoo.rental.application.service.dto;
+package com.daesoo.rental.adaptor.in.request;
 
 import com.daesoo.rental.domain.enumeration.RentalStatus;
+import java.time.LocalDate;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/**
- * A DTO for the {@link com.daesoo.rental.domain.Rental} entity.
- */
-@SuppressWarnings("common-java:DuplicatedBlocks")
 @Getter
 @Setter
-@Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class RentalDTO {
+public class RentalSaveRequestDto {
 
     private Long id;
-
     private Long userId;
-
     private RentalStatus rentalStatus;
+    private Long bookId;
+    private String bookTitle;
+    private LocalDate rentedDate;
 }
